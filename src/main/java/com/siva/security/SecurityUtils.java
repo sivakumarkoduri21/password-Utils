@@ -6,6 +6,7 @@ import java.util.Base64.Encoder;
 
 public class SecurityUtils {
 
+int id=100;
 	public static String encode(String plainText) {
 		Encoder encoder = Base64.getEncoder();
 		return encoder.encodeToString(plainText.getBytes());
